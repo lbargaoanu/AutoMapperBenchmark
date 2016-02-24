@@ -18,10 +18,6 @@ namespace Benchmarks
             //simpleStructTest.RunTest(1000000);
             //simpleStructTest.PrintResults();
 
-
-            //GC.Collect(2);
-            //Thread.Sleep(1000);
-
             var simpleTest = new SimpleTest();
             simpleTest.RunTest(100000);
             simpleTest.PrintResults();
@@ -33,10 +29,6 @@ namespace Benchmarks
             //simpleTest.RunTest(3000000);
             //simpleTest.PrintResults();
 
-
-            //GC.Collect(2);
-            //Thread.Sleep(1000);
-
             var simpleAssociationTest = new SimpleWithAssociationTest();
             simpleAssociationTest.RunTest(100000);
             simpleAssociationTest.PrintResults();
@@ -46,10 +38,6 @@ namespace Benchmarks
 
             //simpleAssociationTest.RunTest(1000000);
             //simpleAssociationTest.PrintResults();
-
-            //GC.Collect(2);
-            //Thread.Sleep(1000);
-
 
             var simpleCollectionTest = new SimpleWithCollectionTest();
             simpleCollectionTest.RunTest(10000);
@@ -61,10 +49,6 @@ namespace Benchmarks
             //simpleCollectionTest.RunTest(100000);
             //simpleCollectionTest.PrintResults();
 
-            //GC.Collect(2);
-            //Thread.Sleep(1000);
-
-
             var advancedTest = new AdvancedTest();
             advancedTest.RunTest(10000);
             advancedTest.PrintResults();
@@ -74,10 +58,6 @@ namespace Benchmarks
 
             //advancedTest.RunTest(200000);
             //advancedTest.PrintResults();
-
-            //GC.Collect(2);
-            //Thread.Sleep(1000);
-
 
             var complexTest = new ComplexTest();
             complexTest.RunTest(10000);

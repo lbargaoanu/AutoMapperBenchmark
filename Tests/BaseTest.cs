@@ -15,6 +15,10 @@ namespace Benchmarks.Tests
 
         public void RunTest(int count)
         {
+            //GC.Collect();
+            //GC.WaitForPendingFinalizers();
+            //GC.Collect();
+
             AutoMapperStopwatch = new Stopwatch();
             ExpressMapperStopwatch = new Stopwatch();
             NativeMapperStopwatch = new Stopwatch();
